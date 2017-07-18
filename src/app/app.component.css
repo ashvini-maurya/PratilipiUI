@@ -1,0 +1,18 @@
+h4 {
+	color: red;
+}
+
+/*.material-icons.md-light { color: rgba(0, 0, 0, 0.54); }*/
+
+.left {
+	display:inline-block
+}
+.right {
+	display:inline-block; 
+	float: right
+}
+
+
+md-grid-tile {
+  background: white;
+}
