@@ -7,11 +7,13 @@
   <div class="right">
     <i class="material-icons" style="margin-right: 10px; margin-top: 10px;">search</i>
     
+    <i class="material-icons" *ngIf="showHide">notifications</i>
+
     <button md-icon-button [mdMenuTriggerFor]="menu" style="float: right">
       <i class="material-icons">account_circle</i>
     </button>
     <md-menu #menu="mdMenu">
-      <button md-menu-item>
+      <button md-menu-item (click)="changeShowStatus()">
         <span>Login</span>
       </button>
       <button md-menu-item>

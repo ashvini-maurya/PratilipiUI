@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  showHide: Boolean;
+
+  constructor() {
+    this.showHide = false;
+  }
+
+  changeShowStatus() {
+    this.showHide = !this.showHide;
+  }
 }
