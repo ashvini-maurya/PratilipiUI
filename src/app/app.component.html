@@ -32,10 +32,12 @@
 
 <md-grid-list cols="3" rowHeight="3:1">
   <md-grid-tile><i class="material-icons">home</i></md-grid-tile>
-  <md-grid-tile><i class="material-icons">explore</i></md-grid-tile>
+  <md-grid-tile><i class="material-icons" routerLink="explore">explore</i></md-grid-tile>
   <md-grid-tile><i class="material-icons">collections_bookmark</i></md-grid-tile>
 </md-grid-list>
 
 
 <!--explore component-->
-<app-explore></app-explore>
+<!--<app-explore></app-explore>-->
+
+<router-outlet></router-outlet>
