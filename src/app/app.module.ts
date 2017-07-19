@@ -5,10 +5,12 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import 'hammerjs';
 
 import { AppComponent } from './app.component';
+import { ExploreComponent } from './explore/explore.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ExploreComponent
   ],
   imports: [
     BrowserModule,
