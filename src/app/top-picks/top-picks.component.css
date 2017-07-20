@@ -1,0 +1,18 @@
+.imageDetails {
+	float:left; 
+	width: 100px; 
+	height: 150px; 
+	border-radius: 0px;
+	margin-right: 10px;
+} 
+
+.container {
+	width:100%;
+	height:auto;
+	padding-top:1%;
+	margin-bottom: 50px;
+}
+
+h4 {
+    margin-top: 10px;
+}
